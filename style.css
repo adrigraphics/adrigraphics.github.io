@@ -31,6 +31,11 @@ h6 {
     margin-top: 10px;
 }
 
+.container-fluid {
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+
 #hero {
     height: 60vh;
     margin-left: 2%;
@@ -99,8 +104,6 @@ h6 {
 #galeria {
     padding-top: 30px;
     padding-bottom: 70px;
-    animation: fadeInUp;
-    animation-duration: 2s;
 }
 
 
