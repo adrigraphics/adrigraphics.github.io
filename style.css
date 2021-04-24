@@ -4,6 +4,7 @@
 
 .container-fluid {
     background-color: transparent;
+    z-index: 2;
 }
 
 /*/////////// ESTILOS DE FUENTE ///////////*/
@@ -69,7 +70,7 @@ h6 {
     animation-duration: 2s;
 }
 
-.heartbeat{
+.heartbeat {
     animation: heartBeat;
     animation-duration: 1s;
     animation-delay: 2s;
@@ -83,6 +84,7 @@ h6 {
     background: linear-gradient(#5F00BAdd, #131112dd), url("assets/img/Portafolio-01.png");
     background-size: cover;
     background-attachment: fixed;
+    z-index: 1;
 }
 
 #hero .title {
@@ -90,6 +92,7 @@ h6 {
     font-size: 55px;
     font-weight: 700;
     padding: 10px 20px;
+    margin-bottom: 25px;
     border: 1px solid #fff;
 }
 
@@ -184,7 +187,7 @@ h6 {
     right: 0px;
     z-index: 1;
     background-color: #f4f2f5;
-    color: #5F00BA!important;
+    color: #5F00BA !important;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 15px;
