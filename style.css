@@ -165,57 +165,6 @@ h6 {
     background-position: center;
 }
 
-/*//////////SESIONES////////*/
-/*******Santo Cafeto********/
-#galeria .sc1 {
-    background-image: url("./assets/img/sc1.jpg");
-}
-
-#galeria .sc2 {
-    background-image: url("./assets/img/sc2.jpg");
-}
-
-#galeria .sc3 {
-    background-image: url("./assets/img/sc3.jpg");
-}
-
-#galeria .sc4 {
-    background-image: url("./assets/img/sc4.jpg");
-}
-
-#galeria .sc5 {
-    background-image: url("./assets/img/sc5.jpg");
-}
-
-#galeria .sc6 {
-    background-image: url("./assets/img/sc6.jpg");
-}
-
-#galeria .sc7 {
-    background-image: url("./assets/img/sc7.jpg");
-}
-
-#galeria .sc8 {
-    background-image: url("./assets/img/sc8.jpg");
-}
-
-#galeria .sc9 {
-    background-image: url("./assets/img/sc9.jpg");
-}
-
-#galeria .sc10 {
-    background-image: url("./assets/img/sc10.jpg");
-}
-
-#galeria .sc11 {
-    background-image: url("./assets/img/sc11.jpg");
-}
-
-#galeria .sc12 {
-    background-image: url("./assets/img/sc12.jpg");
-}
-
-/*******Fin Santo Cafeto********/
 
 
 #galeria .project .img-1 {
@@ -336,3 +285,277 @@ footer .copyright {
     background-color: #5F00BA;
     color: white !important;
 }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*///////////////////////////SESIONES//////////////////////////////*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*******Santo Cafeto********/
+#galeria .sc1 {
+    background-image: url("./assets/img/sc1.jpg");
+}
+
+#galeria .sc2 {
+    background-image: url("./assets/img/sc2.jpg");
+}
+
+#galeria .sc3 {
+    background-image: url("./assets/img/sc3.jpg");
+}
+
+#galeria .sc4 {
+    background-image: url("./assets/img/sc4.jpg");
+}
+
+#galeria .sc5 {
+    background-image: url("./assets/img/sc5.jpg");
+}
+
+#galeria .sc6 {
+    background-image: url("./assets/img/sc6.jpg");
+}
+
+#galeria .sc7 {
+    background-image: url("./assets/img/sc7.jpg");
+}
+
+#galeria .sc8 {
+    background-image: url("./assets/img/sc8.jpg");
+}
+
+#galeria .sc9 {
+    background-image: url("./assets/img/sc9.jpg");
+}
+
+#galeria .sc10 {
+    background-image: url("./assets/img/sc10.jpg");
+}
+
+#galeria .sc11 {
+    background-image: url("./assets/img/sc11.jpg");
+}
+
+#galeria .sc12 {
+    background-image: url("./assets/img/sc12.jpg");
+}
+
+/*******Fin Santo Cafeto********/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*******Rabia Cafe********/
+
+#galeria .rc1 {
+    background-image: url("./assets/img/rc1.jpg");
+}
+
+#galeria .rc2 {
+    background-image: url("./assets/img/rc2.jpg");
+}
+
+#galeria .rc3 {
+    background-image: url("./assets/img/rc3.jpg");
+}
+
+#galeria .rc4 {
+    background-image: url("./assets/img/rc4.jpg");
+}
+
+#galeria .rc5 {
+    background-image: url("./assets/img/rc5.jpg");
+}
+
+#galeria .rc6 {
+    background-image: url("./assets/img/rc6.jpg");
+}
+
+#galeria .rc7 {
+    background-image: url("./assets/img/rc7.jpg");
+}
+
+#galeria .rc8 {
+    background-image: url("./assets/img/rc8.jpg");
+}
+
+/*******Fin Rabia Cafe********/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*******Rabia Cafe********/
+
+#galeria .cm1 {
+    background-image: url("./assets/img/cm1.jpg");
+}
+
+#galeria .cm2 {
+    background-image: url("./assets/img/cm2.jpg");
+}
+
+#galeria .cm3 {
+    background-image: url("./assets/img/cm3.jpg");
+}
+
+#galeria .cm4 {
+    background-image: url("./assets/img/cm4.jpg");
+}
+
+#galeria .cm5 {
+    background-image: url("./assets/img/cm5.jpg");
+}
+
+#galeria .cm6 {
+    background-image: url("./assets/img/cm6.jpg");
+}
+
+#galeria .cm7 {
+    background-image: url("./assets/img/cm7.jpg");
+}
+
+#galeria .cm8 {
+    background-image: url("./assets/img/cm8.jpg");
+}
+
+/*******Fin Cafeto de Mathieu********/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*******Lexdon********/
+
+#galeria .lx1 {
+    background-image: url("./assets/img/lx1.jpg");
+}
+
+#galeria .lx2 {
+    background-image: url("./assets/img/lx2.jpg");
+}
+
+#galeria .lx3 {
+    background-image: url("./assets/img/lx3.jpg");
+}
+
+#galeria .lx4 {
+    background-image: url("./assets/img/lx4.jpg");
+}
+
+#galeria .lx5 {
+    background-image: url("./assets/img/lx5.jpg");
+}
+
+#galeria .lx6 {
+    background-image: url("./assets/img/lx6.jpg");
+}
+
+#galeria .lx7 {
+    background-image: url("./assets/img/lx7.jpg");
+}
+
+#galeria .lx8 {
+    background-image: url("./assets/img/lx8.jpg");
+}
+
+/*******Fin Lexdon********/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*******GyJ********/
+
+#galeria .gj1 {
+    background-image: url("./assets/img/gj1.jpg");
+}
+
+#galeria .gj2 {
+    background-image: url("./assets/img/gj2.jpg");
+}
+
+#galeria .gj3 {
+    background-image: url("./assets/img/gj3.jpg");
+}
+
+#galeria .gj4 {
+    background-image: url("./assets/img/gj4.jpg");
+}
+
+#galeria .gj5 {
+    background-image: url("./assets/img/gj5.jpg");
+}
+
+#galeria .gj6 {
+    background-image: url("./assets/img/gj6.jpg");
+}
+
+#galeria .gj7 {
+    background-image: url("./assets/img/gj7.jpg");
+}
+
+#galeria .gj8 {
+    background-image: url("./assets/img/gj8.jpg");
+}
+
+/*******Fin GyJ********/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*******20S********/
+#galeria .s28s1 {
+    background-image: url("./assets/img/28s1.jpg");
+}
+
+#galeria .s28s2 {
+    background-image: url("./assets/img/28s2.jpg");
+}
+
+#galeria .s28s3 {
+    background-image: url("./assets/img/28s3.jpg");
+}
+
+#galeria .s28s4 {
+    background-image: url("./assets/img/28s4.jpg");
+}
+
+#galeria .s28s5 {
+    background-image: url("./assets/img/28s5.jpg");
+}
+
+#galeria .s28s6 {
+    background-image: url("./assets/img/28s6.jpg");
+}
+
+#galeria .s28s7 {
+    background-image: url("./assets/img/28s7.jpg");
+}
+
+#galeria .s28s8 {
+    background-image: url("./assets/img/28s8.jpg");
+}
+
+#galeria .s28s9 {
+    background-image: url("./assets/img/28s9.jpg");
+}
+
+#galeria .s28s10 {
+    background-image: url("./assets/img/28s10.jpg");
+}
+
+#galeria .s28s11 {
+    background-image: url("./assets/img/28s11.jpg");
+}
+
+#galeria .s28s12 {
+    background-image: url("./assets/img/28s12.jpg");
+}
+
+/*******Fin 20S********/
