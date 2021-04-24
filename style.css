@@ -284,10 +284,10 @@ footer .copyright {
     z-index: 1;
     background-color: #f4f2f5;
     color: #5F00BA!important;
-    padding-top: 2px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 20px;
     text-align: center;
     font-family: 'Work Sans', sans-serif !important;
 }
