@@ -74,7 +74,7 @@ h6 {
     margin-right: 10%;
 }
 
-.img-margen {
+.foto-margen {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -93,7 +93,7 @@ h6 {
         margin-right: 3%;
     }
 
-    .img-margen {
+    .foto-margen {
         margin-left: 0%;
         margin-right: 0%;
     }
@@ -173,6 +173,46 @@ h6 {
 
 #galeria .sc2 {
     background-image: url("./assets/img/sc2.jpg");
+}
+
+#galeria .sc3 {
+    background-image: url("./assets/img/sc3.jpg");
+}
+
+#galeria .sc4 {
+    background-image: url("./assets/img/sc4.jpg");
+}
+
+#galeria .sc5 {
+    background-image: url("./assets/img/sc5.jpg");
+}
+
+#galeria .sc6 {
+    background-image: url("./assets/img/sc6.jpg");
+}
+
+#galeria .sc7 {
+    background-image: url("./assets/img/sc7.jpg");
+}
+
+#galeria .sc8 {
+    background-image: url("./assets/img/sc8.jpg");
+}
+
+#galeria .sc9 {
+    background-image: url("./assets/img/sc9.jpg");
+}
+
+#galeria .sc10 {
+    background-image: url("./assets/img/sc10.jpg");
+}
+
+#galeria .sc11 {
+    background-image: url("./assets/img/sc11.jpg");
+}
+
+#galeria .sc12 {
+    background-image: url("./assets/img/sc12.jpg");
 }
 
 /*******Fin Santo Cafeto********/
