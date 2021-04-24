@@ -23,18 +23,31 @@
 </head>
 
 <body>
+
+
+  <!--HERO-->
+
+  <div class="container-fluid fadein">
+
+    <div id="hero" class="row">
+      <div class="d-flex justify-content-center align-items-center">
+        <h1 class="title text-center">adriGraphics</h1>
+      </div>
+    </div>
+
   <!--========NAVBAR========-->
-  <div class="top-white-space"></div>
-  <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-white">
+  <nav id="navbar"class="sticky-top navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid fadeindown">
-      <a class="navbar-brand col-8" href="#">
+      <a class="navbar-brand col-7" href="#">
         <h3 class="fw-bolder pt-1">aG portfolio.</h3>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse col-4" id="navbarNav">
+      <div class="collapse navbar-collapse  col-5" id="navbarNav">
+        <!--flex-row es para alinear elementos en fila en vez de columna--->
+        <!--- justify-content-around es para distribuir los elementos en una columna de forma horizontal-->
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -49,21 +62,16 @@
             <a class="nav-link" href="#footer">Contacto</a>
           </li>
         </ul>
+        
       </div>
+      <span><i class="fas fa-moon"></i></span>
     </div>
+    
   </nav>
 
   <!---===BODY===-->
 
-  <!--HERO-->
-
-  <div class="container-fluid fadein">
-
-    <div id="hero" class="row">
-      <div class="d-flex justify-content-center align-items-center">
-        <h1 class="title text-center">adriGraphics</h1>
-      </div>
-    </div>
+  
 
 
     <!--INTRO-->
@@ -82,7 +90,7 @@
         <p class="text-justify">Estos son algunos de mis trabajos en fotografía. Haz click en una foto para ver más de
           esa sesión.</p>
       </div>
-      <h5 class="pt-5 fw-bolder">Sesiones Fotográficas <i class="fas fa-camera-retro"></i></h5>
+      <h5 class="pt-5 fw-bolder">Sesiones Fotográficas</i></h5>
     </div>
 
 
@@ -231,7 +239,7 @@
     -->
 
   <script src="https://kit.fontawesome.com/50f7ee394e.js" crossorigin="anonymous"></script>
-
+  <script src="./script.js"></script>
 </body>
 
 </html>

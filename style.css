@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
+.container-fluid {
+    background-color: transparent;
+}
+
+/*/////////// ESTILOS DE FUENTE ///////////*/
+
 p,
 a {
     font-family: 'IBM Plex Mono', monospace;
@@ -17,19 +23,41 @@ h6 {
     font-family: 'Work Sans', sans-serif;
 }
 
-.top-white-space {
-    height: 30px;
+.a-white {
+    color: white;
 }
+
+.a-white:hover {
+    color: #ffffffaa !important;
+}
+
+.sans {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+/*////////// NAVBAR ////////////*/
 
 .navbar {
     padding: 0 10%;
 }
+
+/* 
+/ i \ ===== .STICKY-TOP EN CSS ==== / i \
+.navbar {
+    position: --webkit-sticky;
+    position: stiky;
+    top: 0;
+}
+*/
 
 .navbar-toggler {
     border-radius: 0px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+/*////////// ANIMATIONS //////////// #3a324a*/
+
 
 .fadeindown {
     animation: fadeInDown;
@@ -47,10 +75,10 @@ h6 {
     animation-delay: 2s;
 }
 
+/*////////// HERO ////////////*/
+
 #hero {
-    height: 60vh;
-    margin-left: 2%;
-    margin-right: 2%;
+    height: 100vh;
     background-color: ;
     background: linear-gradient(#5F00BAdd, #131112dd), url("assets/img/Portafolio-01.png");
     background-size: cover;
@@ -65,9 +93,24 @@ h6 {
     border: 1px solid #fff;
 }
 
+/*////////// INTRO ////////////*/
+
 #intro {
     padding-top: 70px;
 }
+
+#intro #insta {
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+
+#intro #insta:hover {
+    color: #5F00BA;
+}
+
+/*/////////// MARGENES ///////////*/
+
 
 .margen {
     margin-left: 10%;
@@ -78,6 +121,9 @@ h6 {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+/*/////////// RESPONSIVENESS ///////////*/
+
 
 @media (max-width: 575px) {
     #hero .title {
@@ -99,6 +145,8 @@ h6 {
     }
 }
 
+/*////////// BOTONES ////////////*/
+
 .collab {
     font-size: 15px;
     background-color: #f4f2f5;
@@ -112,15 +160,45 @@ h6 {
     color: white;
 }
 
-#intro #insta {
-    font-weight: 800;
-    color: black;
-    text-decoration: none;
+.boton {
+    border: 1px solid #00000033;
+    background-color: #fff;
+    color: black !important;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
-#intro #insta:hover {
-    color: #5F00BA;
+.boton:hover {
+    animation: pulse;
+    animation-duration: 1s;
 }
+
+.sticky-btn {
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    background-color: #f4f2f5;
+    color: #5F00BA!important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.sticky-btn:hover {
+    background-color: #5F00BA;
+    color: white !important;
+}
+
+/*////////// GALERIA ////////////*/
 
 #galeria {
     padding-top: 30px;
@@ -165,6 +243,7 @@ h6 {
     background-position: center;
 }
 
+/*/////////// IMAGENES DE GALERIA ///////////*/
 
 
 #galeria .project .img-1 {
@@ -190,6 +269,9 @@ h6 {
 #galeria .project .img-6 {
     background-image: url("./assets/img/28scover.jpg");
 }
+
+/*///////// FOOTER /////////////*/
+
 
 footer {
     min-height: 300px;
@@ -236,64 +318,18 @@ footer .copyright {
     font-size: 13px;
 }
 
-.a-white {
-    color: white;
-}
 
-.a-white:hover {
-    color: #ffffffaa !important;
-}
 
-.sans {
-    font-family: 'Work Sans', sans-serif !important;
-}
 
-.boton {
-    border: 1px solid #00000033;
-    background-color: #fff;
-    color: black !important;
-    padding-top: 2px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-.boton:hover {
-    animation: pulse;
-    animation-duration: 1s;
-}
-
-.sticky-btn {
-
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 1;
-    background-color: #f4f2f5;
-    color: #5F00BA!important;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 20px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif !important;
-}
-
-.sticky-btn:hover {
-    background-color: #5F00BA;
-    color: white !important;
-}
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
-/*///////////////////////////SESIONES//////////////////////////////*/
+/*////////////////////////// SESIONES /////////////////////////////*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
-/*******Santo Cafeto********/
+/******* Santo Cafeto ********/
 #galeria .sc1 {
     background-image: url("./assets/img/sc1.jpg");
 }
@@ -342,13 +378,13 @@ footer .copyright {
     background-image: url("./assets/img/sc12.jpg");
 }
 
-/*******Fin Santo Cafeto********/
+/******* Fin Santo Cafeto ********/
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-/*******Rabia Cafe********/
+/******* Rabia Cafe ********/
 
 #galeria .rc1 {
     background-image: url("./assets/img/rc1.JPG");
@@ -382,13 +418,13 @@ footer .copyright {
     background-image: url("./assets/img/rc8.JPG");
 }
 
-/*******Fin Rabia Cafe********/
+/******* Fin Rabia Cafe ********/
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-/*******Rabia Cafe********/
+/******* Cafeto de Mathieu ********/
 
 #galeria .cm1 {
     background-image: url("./assets/img/cm1.jpg");
@@ -422,7 +458,7 @@ footer .copyright {
     background-image: url("./assets/img/cm8.jpg");
 }
 
-/*******Fin Cafeto de Mathieu********/
+/******* Fin Cafeto de Mathieu ********/
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -462,13 +498,13 @@ footer .copyright {
     background-image: url("./assets/img/lx8.jpg");
 }
 
-/*******Fin Lexdon********/
+/******* Fin Lexdon ********/
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
-/*******GyJ********/
+/******* GyJ ********/
 
 #galeria .gj1 {
     background-image: url("./assets/img/gj1.jpg");
@@ -502,14 +538,14 @@ footer .copyright {
     background-image: url("./assets/img/gj8.jpg");
 }
 
-/*******Fin GyJ********/
+/******* Fin GyJ ********/
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
-/*******20S********/
+/******* 20S ********/
 #galeria .s28s1 {
     background-image: url("./assets/img/28s1.jpg");
 }
@@ -558,4 +594,4 @@ footer .copyright {
     background-image: url("./assets/img/28s12.jpg");
 }
 
-/*******Fin 20S********/
+/******* Fin 20S ********/
