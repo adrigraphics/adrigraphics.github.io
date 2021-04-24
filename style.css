@@ -39,7 +39,12 @@ h6 {
 .fadein {
     animation: fadeIn;
     animation-duration: 2s;
+}
 
+.heartbeat{
+    animation: heartBeat;
+    animation-duration: 1s;
+    animation-delay: 1s;
 }
 
 #hero {
