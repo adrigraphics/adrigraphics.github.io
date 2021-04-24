@@ -44,7 +44,7 @@ h6 {
 .heartbeat{
     animation: heartBeat;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 #hero {
@@ -99,16 +99,15 @@ h6 {
     }
 }
 
-.mail {
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.collab {
+    font-size: 15px;
     background-color: #f4f2f5;
     color: #5F00BA;
     padding: 10px 20px;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.mail:hover {
+.collab:hover {
     background-color: #5F00BA;
     color: white;
 }
@@ -282,4 +281,19 @@ footer .copyright {
     bottom: 20px;
     right: 15px;
     z-index: 1;
+    border: 1px solid #00000033;
+    background-color: #fff;
+    color: black !important;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.sticky-btn:hover {
+    border: none;
+    background-color: #5F00BA;
+    color: white !important;
 }
